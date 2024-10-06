@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body {
+  	background-image: url('./web-bg.png');
+}
+
+.button {
+	font-family: 'EB Garamond', serif;
+	background: rosybrown;
+	color: aliceblue;
+}
+
+h1 {
+	font-family: "Sixtyfour Convergence", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+	font-family: "Afacad Flux", sans-serif;
+  	font-optical-sizing: auto;
+  	font-weight: <weight>;
+  	font-style: normal;
+  	font-variation-settings:
+    "slnt" 0;
+    color: azure;
+    font-size: 40px;
+}
+
+p {
+	font-family: "Jersey 25", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
+	font-size: 25px;
+}
+
+form {
+	font-family: "Kay Pho Du", serif;
+	font-weight: 500;
+	font-style: normal;
+	color: white;
+}
+
+#mass-result, #distance-result {
+	font-family: "Kay Pho Du", serif;
+	font-weight: 500;
+	font-style: normal;
+	color: white;
+}
+
+#mass, #distance {
+    display: block;
+    box-sizing: border-box;
+    border: 0;
+    background: white;
+    padding: 10px 10px;
+    outline: none;
+    color: black;
+    transition: 0.5s;
+    font-family: "Kay Pho Du", serif;
+}
+
+.button {
+    background-color: white;
+    color: navy;
+    border: none;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+}
