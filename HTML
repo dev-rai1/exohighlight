@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+	<meta charset="utf-8">
+	<title>EXO-HIGHLIGHT</title>
+    <link rel="icon" href="./exoplanet.jfif">
+    <link rel="stylesheet" href="./exohighlight.css">
+</header>
+
+
+<body>
+
+	<h1>EXO-HIGHLIGHT</h1>
+
+	<div align="center"><iframe width="1000" height="700" src="https://edpuzzle.com/embed/media/6702e9dd33ef8b060aaf58ea" frameborder="0" allowfullscreen></iframe></div>
+
+	<br>
+	<img id="result" src="./stars.jpg" alt="Star" style="float: right" width="768" height="417">
+
+	<h2>Build Your Own Exoplanet!</h2>
+
+	<p>Choose the star type:</p>
+	<form name="star_type_form">
+	  	<input type="radio" id="star_type" name="star_type" value="gasgiant">
+	 	<label for="gasgiant">Gas Giant</label><br>
+	  	<input type="radio" id="star_type" name="star_type" value="neptunian">
+	  	<label for="neptunian">Neptunian</label><br>
+	  	<input type="radio" id="star_type" name="star_type" value="superearth">
+	  	<label for="superearth">Super-Earth</label><br>
+		<input type="radio" id="star_type" name="star_type" value="terrestrial">
+		<label for="terrestrial">Terrestrial</label><br>
+	</form> 
+
+	<p>Choose the planet's in terms of the earth's mass:</p>
+	<form name="mass_form">
+	  	<input type="text" id="mass" placeholder="Type a percentage">
+	</form>
+
+	<p>Choose the planet's distance from its star:</p>
+	<form name="distance_form">
+	  	<input type="text" id="distance" placeholder="Type distance in miles">
+	</form>
+	
+	<br>
+	<button type="button" onClick="build()" class="button">Build your planet!</button>
+
+	<p id="mass-result"></p>
+	<p id="distance-result"></p>
+</body>
+
+<script src="./exohighlight.js"></script>
+
+</html>
