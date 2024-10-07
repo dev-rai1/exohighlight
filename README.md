@@ -1,1 +1,1 @@
-https://dev-rai1.github.io/exohighlight.html
+https://dev-rai1.github.io
